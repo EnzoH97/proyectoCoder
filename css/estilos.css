@@ -1,0 +1,1258 @@
+/* Reset general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*tipografia para todo los titulos y parrafos*/
+
+h1,
+h2,
+h3{
+    font-family: "DM Serif Display", serif;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+/* para evitar el desbordamiento*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* --------------- Navegación --------------- */
+.barra-navegacion {
+    background-color: #5c4033;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+}
+
+a {
+    color: #F3E9DC;
+    text-decoration: none;
+}
+
+.navegacion{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-right: 2.5rem;
+    gap: 1.5625rem;
+}
+
+
+.logo img {
+    width: 21.875rem;
+    height: auto;
+}
+
+
+/* --------------- Main --------------- */
+main {
+    background-color: #F3E9DC;
+}
+
+/* --------------- html index --------------- */
+.seccion-bienvenida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.txt-bienvenida{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-right: 1.25rem;
+    text-wrap: pretty;
+}
+
+.seccion-bienvenida img{
+    width: 18.75rem;
+    height: auto;
+    object-fit: cover;
+    margin: 1.875rem;
+    border-radius: 1.25rem;
+}
+
+h1 {
+    color: #5C4033;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+main p {
+    color: #C75D2C;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+/* --------------- redirecciones del index --------------- */
+
+.contenedor-general{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+/* --------------- Sección Tienda --------------- */
+
+.contenedor1 {
+    background-color: #F8B259;
+    display: flex;
+    align-items: center;
+    padding-right: .625rem;
+    gap: 1.5625rem;
+}
+
+.contenedor1 h2 {
+    color: #5C4033;
+    padding: .625rem 1.5625rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.contenedor1 p {
+    color: #5C4033;
+    padding: .625rem 1.5625rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.contenedor1 img {
+    width: 18.75rem;
+    object-fit: cover;
+    margin: .625rem;
+    border-radius: 1rem;
+}
+
+/* --------------- Sección Eventos --------------- */
+.contenedor2 {
+    background-color: #D96F32;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: .625rem;
+    gap: 1.5625rem;
+}
+
+
+.contenedor2 h2 {
+    color: #F3E9DC;
+    padding: .625rem 1.5625rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.contenedor2 p {
+    color: #F3E9DC;
+    padding: .625rem 1.5625rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.contenedor2 img {
+    width: 18.75rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: .625rem;
+}
+
+/* --------------- Sección Sobre nosotros --------------- */
+.contenedor3 {
+    background-color: #C75D2C;
+    display: flex;
+    align-items: center;
+    padding-right: .625rem;
+    gap: 1.5625rem;
+    margin-bottom: 1.875rem;
+}
+
+.contenedor3 h2 {
+    color: #F8B259;
+    padding: .625rem 1.5625rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.contenedor3 p {
+    color: #F8B259;
+    padding: .625rem 1.5625rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.contenedor3 img {
+    width: 18.75rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: .625rem;
+}
+
+/* --------------- html contacto --------------- */
+/* --------------- Formulario de contacto ---------------*/
+
+.contenedor-form {
+    display: flex;
+    width: 100%;
+    max-width: 68.75rem;
+    margin: 0 auto;
+}
+
+.info-form {
+    width: 100%;
+    max-width: 68.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.izq {
+    padding: 3.125rem;
+}
+
+.der {
+    padding: 3.125rem;
+    text-align: center;
+}
+
+.contenedor-form h2 {
+    margin-bottom: .9375rem;
+    font-size: 1.75rem;
+}
+
+.txt-tarjeta {
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.contenedor-form img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .3125rem .625rem .3125rem 0;
+}
+
+.txt-info {
+    display: flex;
+    align-items: center;
+    margin: .3125rem .625rem .3125rem 0;
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+/* --------------- Campos del formulario --------------- */
+.campo, textarea {
+    background-color: #FFD7A3;
+    border: 1px solid #F8B259;
+    width: 100%;
+    padding: .9375rem .625rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    border-radius: .1875rem;
+}
+
+/* --------------- Botón enviar --------------- */
+
+.enviar{
+    background-color: #D96F32;
+    color: #FFE6BC;
+    text-align: center;
+    text-decoration: none;
+    padding: .9375rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #c3542b;
+}
+
+/* --------------- html eventos --------------- */
+
+.encavezado-eventos{
+    background-color: #F8B259;
+    height: auto;
+    padding: 1.25rem 0;
+}
+
+.encavezado-eventos h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.contenedor-eventos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.apartado-imgEvetos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 3.125rem .625rem;
+    gap: 1.25rem;
+    flex: 1 1 400px;
+}
+
+
+.apartado-imgEvetos img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #5C4033;
+}
+
+
+.img1-evt img{
+    width: 37.5rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: .625rem;
+    box-shadow: 0 .25rem .5rem #5C4033;
+}
+
+.img2-evt img{
+    width: 43.75rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: .625rem;
+    box-shadow: 0 .25rem .5rem #5C4033;
+}
+
+.apartado-txtEventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.125rem;
+    gap: 3rem;
+}
+
+.apartado-txtEventos h2{
+    color: #5C4033;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.apartado-txtEventos p{
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 2.5rem;
+    text-wrap: pretty;
+}
+
+.listado-contenidoEvt{
+    list-style: circle;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+.list-promo{
+    color: #5C4033;
+    font-size: 1rem;
+    margin-left: 1.25rem;
+    padding-left: 1.875rem;
+}
+
+.explicacion-pagos{
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+
+/* --------------- html Sobre Nosotros --------------- */
+
+.encavezado-nosotros{
+    background-color: #F8B259;
+    height: auto;
+    padding: 1.25rem 0;
+}
+
+.encavezado-nosotros h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.seccion-historia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 1.25rem 3rem;
+    padding: 1.25rem 4.5rem;
+    gap: 3.125rem;
+}
+
+.seccion-historia img{
+    box-shadow: 0 .25rem .5rem #5C4033;
+    filter: grayscale(100%);
+    border-radius: .9375rem;
+    width: 22rem;
+}
+.seccion-historia h2{
+    color: #5C4033;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.seccion-historia p{
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.seccion-valores {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.valor-uno,
+.valor-dos,
+.valor-tres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1 1 0;
+    min-height: 20rem;
+    padding: 1.25rem;
+    border-radius: .75rem;
+    margin: 0;
+}
+
+.valor-uno p,
+.valor-dos p,
+.valor-tres p{
+    padding: 0 2.5rem;
+    text-wrap: pretty;
+}
+
+.seccion-valores h3{
+    color: #FFD7A3;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.375rem;
+    padding: .9375rem;
+}
+
+.seccion-valores p{
+    color: #FFD7A3;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.valor-uno{
+    background-color: #C75D2C;
+    border-radius: .75rem;
+}
+
+.valor-dos{
+    background-color: #D96F32;
+    border-radius: .75rem;
+}
+
+.valor-tres{
+    background-color: #C75D2C;
+    border-radius: .75rem;
+}
+
+/* --------------- html tienda --------------- */
+
+.encavezado-tienda{
+    background-color: #F8B259;
+    height: auto;
+    padding: 1.25rem 0;
+}
+
+.encavezado-tienda h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #FFE6BC;
+    display: flex;
+    flex-direction: column; 
+    width: 15.625rem;
+    height: 21.875rem;
+    margin: 3.125rem;
+    padding: .8rem;
+    box-shadow: 0 .25rem .5rem #5C4033;
+    border-radius: .75rem;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-img img{
+    width: 90%;
+    height: 9.375rem;
+    object-fit: contain;
+    border-radius: .5rem;
+}
+
+.info-card{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info-card h2{
+    color: #5C4033;
+    font-size: 1.5rem;
+    padding: .625rem 0;
+}
+
+.info-card p{
+    color: #5C4033;
+    padding: .625rem .3125rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.footer-card{
+    color:#D96F32;
+    border-top: .0625rem solid #D96F32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+    padding-top: .625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+/* --------------- Pie de página --------------- */
+.pie-pagina {
+    background-color: #5c4033;
+    color: #F3E9DC;
+    height: auto;
+}
+
+.pie-pagina h3 {
+    padding: .625rem;
+    font-size: 1.375rem;
+}
+
+.caja-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.25rem 0;
+}
+
+.caja-redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.1875rem;
+    gap: .625rem;
+}
+
+.caja-contactos {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+.iconos-rd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconos-ct {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: .625rem;
+}
+
+.item-contacto {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.item-contacto p {
+    margin: 0;
+    font-size: 1rem;
+    text-wrap: pretty;
+}
+
+@media (max-width: 768px){
+/* --------------- Navegación tablet --------------- */
+    .barra-navegacion {
+    height: 6.25rem;
+}
+
+.navegacion{
+    padding-right: 1.875rem;
+    gap: 1.25rem;
+}
+
+.logo img {
+    width: 15.625rem;
+    height: auto;
+}
+
+
+/* --------------- html index tablet --------------- */
+.seccion-bienvenida img{
+    width: 12.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* --------------- redirecciones del index tablet--------------- */
+
+.contenedor-general{
+    gap: .625rem;
+}
+
+/* --------------- Secciones del index --------------- */
+.contenedor1 h2,
+.contenedor2 h2,
+.contenedor3 h2 {
+    padding: .625rem 1.25rem;
+    font-size: 1.5rem;
+}
+
+.contenedor1 img,
+.contenedor2 img,
+.contenedor3 img {
+    width: 15.625rem;
+}
+
+/* --------------- html contacto tablet --------------- */
+/* --------------- Formulario de contacto ---------------*/
+
+.izq {
+    padding: 2.5rem;
+}
+
+.der {
+    padding: 2.5rem 2.1875rem;
+}
+.contenedor-form h2 {
+    font-size: 1.5rem;
+}
+
+.txt-tarjeta {
+    margin-bottom: 1.5625rem;
+}
+
+.contenedor-form img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: .3125rem .625rem .3125rem 0;
+}
+
+.txt-info {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+/* --------------- Botón enviar --------------- */
+
+.enviar{
+    padding: .8125rem;
+}
+
+
+/* --------------- html eventos tablet--------------- */
+
+.encavezado-eventos h1{
+    font-size: 2rem;
+}
+
+.contenedor-eventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 2rem;
+}
+
+.apartado-imgEvetos{
+    display: flex;
+    flex-direction: row;
+    margin: 2.75rem .625rem;
+    gap: 1.25rem;
+    flex: 1 1 300px;
+}
+
+.apartado-imgEvetos img {
+    width: 100%;
+    max-width: 25rem;
+}
+
+
+.img1-evt img{
+    width: 21.875rem;
+    height: 15.625rem;
+}
+
+.img2-evt img{
+    height: 18.75rem;
+}
+
+.apartado-txtEventos{
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.apartado-txtEventos h2{
+    font-size: 1.5rem;
+}
+
+.apartado-txtEventos p{
+    padding: 0 1.5rem;
+}
+
+.list-promo{
+    margin-left: 1rem;
+    padding-left: 1.75rem;
+}
+
+/* --------------- html Sobre Nosotros teblet --------------- */
+
+.encavezado-nosotros h1{
+    font-size: 2rem;
+}
+
+.seccion-historia{
+    margin: 1.5rem 2rem;
+    padding: 1.5rem 1.875rem;
+    gap: 2.5rem;
+}
+
+.seccion-historia img{
+    width: 16rem;
+}
+.seccion-historia h2{
+    font-size: 1.5rem;
+    margin: .625rem 0;
+}
+
+
+.seccion-valores {
+    padding: 1rem;
+}
+
+.valor-uno,
+.valor-dos,
+.valor-tres {
+    padding: 1rem;
+}
+
+.seccion-valores h3{
+    font-size: 1.25rem;
+    padding: .8125rem;
+}
+
+/* --------------- html tienda tablet --------------- */
+
+.encavezado-tienda h1{
+    font-size: 2rem;
+}
+
+.card{
+    width: 15rem;
+    height: 20.625rem;
+    margin: 2rem;
+}
+
+.card-img img{
+    width: 100%;
+    height: 7.8125rem;
+}
+
+.info-card h2{
+    font-size: 1.25rem;
+}
+
+/* --------------- Pie de página tablet --------------- */
+
+.pie-pagina h3 {
+    padding: .3125rem;
+    font-size: 1.25rem;
+}
+
+.caja-general {
+    padding: .9375rem 0;
+}
+
+.caja-redes {
+    margin-top: 1.875rem;
+}
+
+.caja-contactos {
+    gap: .625rem;
+}
+
+.item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.iconos-ct {
+    gap: .625rem;
+}
+
+.item-contacto {
+    gap: .625rem;
+}
+
+.item-contacto img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+}
+
+
+
+@media (max-width: 425px){
+            /*organizacion de la barra de navegacion momentanea hasta empezar con js*/
+.barra-navegacion {
+    height: 6rem;
+}
+
+a {
+    font-size: .8rem;
+}
+
+.navegacion{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+    padding-right: 0;
+    gap: .5rem;
+}
+
+.navegacion li{
+    margin: 0 .3rem;
+}
+
+.logo img {
+    width: 12rem;
+}
+
+/* --------------- html index celular --------------- */
+.seccion-bienvenida{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.txt-bienvenida{
+    width: 90%;
+    margin: 1rem;
+}
+
+.seccion-bienvenida img{
+    width: 10rem;
+    margin: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: .9375rem 0;
+}
+
+main p {
+    font-size: .9rem;
+    margin: .9375rem 0;
+}
+
+/* --------------- redirecciones del index --------------- */
+
+.contenedor-general{
+    gap: 0;
+}
+
+/*--------------- secciones tienda celulares ---------------*/
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+    gap: .5rem;
+}
+
+.contenedor1 h2 {
+    padding: .625rem;
+    margin: .625rem 0 0 .625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contenedor1 p {
+    margin: .625rem 0 0 .625rem;
+    padding: .625rem;
+    font-size: .9rem;
+}
+
+.contenedor1 img {
+    width: 10rem;
+    object-fit: cover;
+    margin-right: .625rem;
+    border-radius: 1rem;
+}
+
+/*--------------- secciones Eventos celulares ---------------*/
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: .5rem;
+}
+
+.contenedor2 h2 {
+    padding: .625rem;
+    margin: .625rem .625rem 0 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contenedor2 p {
+    margin: .625rem .625rem 0 0;
+    padding: .625rem;
+    font-size: .9rem;
+}
+
+.contenedor2 img {
+    width: 10rem;
+    object-fit: cover;
+    margin-left: .625rem;
+    border-radius: 1rem;
+}
+
+/*--------------- secciones Nosotros celulares ---------------*/
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+    gap: .5rem;
+}
+
+.contenedor3 h2 {
+    padding: .625rem;
+    margin: .625rem 0 0 .625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contenedor3 p {
+    margin: .625rem 0 0 .625rem;
+    padding: .625rem;
+    font-size: .9rem;
+}
+
+.contenedor3 img {
+    width: 10rem;
+    object-fit: cover;
+    margin-right: .625rem;
+    border-radius: 1rem;
+}
+
+/* --------------- html contacto celular --------------- */
+/* --------------- Formulario de contacto ---------------*/
+.info-form {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.izq {
+    padding: 0 1.875rem;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+.der{
+    padding: 0 2.1875rem 2.5rem 2.1875rem;
+}
+
+.contenedor-form h2 {
+    font-size: 1.25rem;
+}
+
+.txt-tarjeta {
+    font-size: .9rem;
+    margin: 15px 0;
+}
+
+.contenedor-form img {
+    width: 1rem;
+    height: 1rem;
+    margin: .3125rem .625rem .3125rem 0;
+}
+
+.txt-info {
+    font-size: .9rem;
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+/* --------------- Campos del formulario --------------- */
+.campo, textarea {
+    padding: .625rem;
+    margin-bottom: 1.25rem;
+    font-size: .9rem;
+    border: 1px solid #C75D2C;
+    border-radius: .1875rem;
+}
+
+/* --------------- Botón enviar --------------- */
+
+.enviar {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* --------------- html eventos celur --------------- */
+
+.encavezado-eventos h1{
+    font-size: 1.5rem;
+}
+
+.contenedor-eventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 1.25rem;
+}
+
+.apartado-imgEvetos{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 1.25rem;
+    flex: 1 1 250px;
+}
+
+.apartado-imgEvetos img {
+    width: 100%;
+    max-width: 21.875rem;
+}
+
+
+.img1-evt img{
+    width: 18.75rem;
+    height: 14.0625rem;
+}
+
+.img2-evt img{
+    height: 15.625rem;
+}
+
+.apartado-txtEventos{
+    margin: 1.25rem .625rem;
+    gap: 0;
+}
+
+.apartado-txtEventos h2{
+    margin-bottom: .625rem;
+    font-size: 1.25rem;
+}
+
+.apartado-txtEventos p{
+    font-size: .9rem;
+    padding: 0 1.5rem;
+}
+
+.list-promo{
+    font-size: .9rem;
+    margin-left: 1rem;
+    padding-left: 1.75rem;
+    gap: .3125rem;
+}
+
+.list-promo li{
+    margin-bottom: .3125rem;
+}
+
+/* --------------- html Sobre Nosotros celular --------------- */
+
+.encavezado-nosotros h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.seccion-historia{
+    flex-direction: column;
+    margin: .625rem;
+    padding: 1.25rem 1.875rem;
+    gap: 0;
+}
+
+.seccion-historia img{
+    border-radius: .9375rem;
+    width: 12.5rem;
+}
+.seccion-historia h2{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.seccion-historia p{
+    font-size: .9rem;
+}
+
+.seccion-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.valor-uno,
+.valor-dos,
+.valor-tres {
+    justify-content: center;
+    min-height: 13.75rem;
+    padding: 0;
+    margin: 0;
+}
+
+.valor-uno p,
+.valor-dos p,
+.valor-tres p{
+    font-size: .9rem;
+    margin: .625rem 0;
+}
+
+.seccion-valores h3{
+    font-size: 18px;
+    padding: .625rem;
+}
+
+.seccion-valores p{
+    font-size: 14.4px;
+}
+
+/* --------------- html tienda celular --------------- */
+
+.encavezado-tienda h1{
+    font-size: 1.5rem;
+}
+
+.card{
+    width: 14.375rem;
+    height: 19.6875rem;
+    margin: 2rem;
+}
+
+.card-img img{
+    width: 100%;
+    height: 6.875rem;
+}
+
+.info-card h2{
+    font-size: 1.125rem;
+    padding: .5rem 0;
+}
+
+.info-card p{
+    font-size: .9rem;
+}
+
+.footer-card{
+    padding-top: 0;
+    font-size: 1.125rem;
+}
+
+/* --------------- Pie de página celular --------------- */
+.caja-general{
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie-pagina h3 {
+    padding: .25rem;
+    font-size: 1.125rem;
+}
+
+.caja-general {
+    padding: 1rem 0;
+}
+
+.caja-contactos{
+    align-items: center;
+}
+
+.caja-redes {
+    margin-top: 1.875rem;
+}
+
+.iconos-rd{
+    justify-content: space-evenly;
+}
+
+.item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.item-contacto p {
+    font-size: .9rem;
+}
+}
