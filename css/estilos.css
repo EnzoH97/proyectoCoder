@@ -26,34 +26,23 @@ html, body {
     overflow-x: hidden;
 }
 
-
-/* --------------- Navegación --------------- */
-.barra-navegacion {
-    background-color: #5c4033;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    height: 150px;
-    width: 100%;
-}
-
-a {
-    color: #F3E9DC;
+a{
     text-decoration: none;
 }
 
-.navegacion{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding-right: 2.5rem;
-    gap: 1.5625rem;
+/* --------------- Navegación --------------- */
+.navbar {
+    background-color:#5c4033 !important;
+    width: 100%;
 }
 
+.navbar a {
+    color: #F3E9DC;
+}
 
-.logo img {
-    width: 21.875rem;
-    height: auto;
+.navbar img {
+    width: auto;
+    height: 10.9375rem;
 }
 
 
@@ -629,22 +618,6 @@ main p {
 }
 
 @media (max-width: 768px){
-/* --------------- Navegación tablet --------------- */
-    .barra-navegacion {
-    height: 6.25rem;
-}
-
-.navegacion{
-    padding-right: 1.875rem;
-    gap: 1.25rem;
-}
-
-.logo img {
-    width: 15.625rem;
-    height: auto;
-}
-
-
 /* --------------- html index tablet --------------- */
 .seccion-bienvenida img{
     width: 12.5rem;
@@ -864,31 +837,6 @@ h1 {
 
 
 @media (max-width: 425px){
-            /*organizacion de la barra de navegacion momentanea hasta empezar con js*/
-.barra-navegacion {
-    height: 6rem;
-}
-
-a {
-    font-size: .8rem;
-}
-
-.navegacion{
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 0;
-    padding-right: 0;
-    gap: .5rem;
-}
-
-.navegacion li{
-    margin: 0 .3rem;
-}
-
-.logo img {
-    width: 12rem;
-}
-
 /* --------------- html index celular --------------- */
 .seccion-bienvenida{
     display: flex;
