@@ -1,5 +1,4 @@
 /* Reset general */
-
 * {
     margin: 0;
     padding: 0;
@@ -567,6 +566,7 @@ main p {
 .pie-pagina h3 {
     padding: .625rem;
     font-size: 1.375rem;
+    font-weight: 600;
 }
 
 .caja-general {
@@ -1176,11 +1176,13 @@ main p {
 
 /* --------------- Pie de página celular --------------- */
 .caja-general{
+    gap: .9375rem;
     flex-direction: column;
     align-items: center;
 }
 
 .pie-pagina h3 {
+    margin: 0;
     padding: .25rem;
     font-size: 1.125rem;
 }
@@ -1190,11 +1192,13 @@ main p {
 }
 
 .caja-contactos{
+    gap: .3125rem;
     align-items: center;
 }
 
 .caja-redes {
-    margin-top: 1.875rem;
+    gap: .3125rem;
+    margin-top: .9375rem;
 }
 
 .iconos-rd{
