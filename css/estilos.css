@@ -223,6 +223,7 @@ main p {
 .contenedor-form h2 {
     margin-bottom: .9375rem;
     font-size: 1.75rem;
+    font-weight: 600;
 }
 
 .txt-tarjeta {
