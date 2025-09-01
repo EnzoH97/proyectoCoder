@@ -67,7 +67,8 @@ main {
 }
 
 .seccion-bienvenida img{
-    width: 18.75rem;
+    width: 100%;
+    max-width: 18.75rem;
     height: auto;
     object-fit: cover;
     margin: 1.875rem;
@@ -123,7 +124,9 @@ main p {
 }
 
 .contenedor1 img {
-    width: 18.75rem;
+    width: 100%;
+    max-width: 18.75rem;
+    height: auto;
     object-fit: cover;
     margin: .625rem;
     border-radius: 1rem;
@@ -156,7 +159,9 @@ main p {
 }
 
 .contenedor2 img {
-    width: 18.75rem;
+    width: 100%;
+    max-width: 18.75rem;
+    height: auto;
     object-fit: cover;
     border-radius: 1rem;
     margin: .625rem;
@@ -188,7 +193,9 @@ main p {
 }
 
 .contenedor3 img {
-    width: 18.75rem;
+    width: 100%;
+    max-width: 18.75rem;
+    height: auto;
     object-fit: cover;
     border-radius: 1rem;
     margin: .625rem;
@@ -404,7 +411,10 @@ main p {
     box-shadow: 0 .25rem .5rem #5C4033;
     filter: grayscale(100%);
     border-radius: .9375rem;
-    width: 22rem;
+    width: 100%;
+    max-width: 22rem;
+    height: auto;
+
 }
 .seccion-historia h2{
     color: #5C4033;
