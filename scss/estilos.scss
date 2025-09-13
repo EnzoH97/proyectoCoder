@@ -12,7 +12,12 @@
 
 @import './layout/footer.scss';
 @import './layout/index.scss';
+@import './layout/contactos.scss';
+@import './layout/eventos.scss';
 @import './layout/nosotros.scss';
+@import './layout/tienda.scss';
 
 /*cuarto componentes*/
-@import './components/navbar.scss'
+@import './components/navbar.scss';
+@import './components/botones.scss';
+@import './components/cards.scss';

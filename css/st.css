@@ -1,4 +1,4 @@
-/**Reset general 
+/*Reset general 
 * {
     margin: 0;
     padding: 0;
@@ -200,9 +200,9 @@ main p {
     border-radius: 1rem;
     margin: .625rem;
 }
-
-/* --------------- html contacto --------------- */
-/* --------------- Formulario de contacto ---------------*/
+/*
+--------------- html contacto ---------------
+--------------- Formulario de contacto ---------------
 
 .contenedor-form {
     display: flex;
@@ -254,7 +254,7 @@ main p {
     height: 1.5rem
 }
 
-/* --------------- Campos del formulario --------------- */
+--------------- Campos del formulario ---------------
 .campo, textarea {
     background-color: #FFD7A3;
     border: 1px solid #F8B259;
@@ -265,7 +265,7 @@ main p {
     border-radius: .1875rem;
 }
 
-/* --------------- Botón enviar --------------- */
+--------------- Botón enviar ----------------
 
 .enviar{
     background-color: #D96F32;
@@ -282,7 +282,7 @@ main p {
     background-color: #c3542b;
 }
 
-/* --------------- html eventos --------------- */
+--------------- html eventos ---------------
 
 .encavezado-eventos{
     background-color: #F8B259;
@@ -383,7 +383,7 @@ main p {
 }
 
 
-/* --------------- html Sobre Nosotros --------------- */
+--------------- html Sobre Nosotros ---------------
 
 .encavezado-nosotros{
     background-color: #F8B259;
@@ -485,7 +485,7 @@ main p {
     background-color: #C75D2C;
     border-radius: .75rem;
 }
-
+*/
 /* --------------- html tienda --------------- */
 
 .encavezado-tienda{
@@ -567,7 +567,8 @@ main p {
     font-size: 1.25rem;
     font-weight: 600;
 }
-/* --------------- Pie de página --------------- */
+/*
+--------------- Pie de página ---------------
 .pie-pagina {
     background-color: #5c4033;
     color: #F3E9DC;
@@ -629,7 +630,7 @@ main p {
     font-size: 1rem;
     text-wrap: pretty;
 }
-
+*/
 @media (max-width: 768px){
 /* --------------- html index tablet --------------- */
 .seccion-bienvenida img{

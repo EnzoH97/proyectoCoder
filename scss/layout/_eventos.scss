@@ -1,0 +1,88 @@
+/*--------------- html eventos ---------------*/
+
+.encavezado-eventos{
+    background-color: $color5;
+    height: auto;
+    padding: 1.25rem 0;
+}
+
+.encavezado-eventos h1{
+    text-align: center;
+    font-weight: $font-weight-seminegrita;
+    font-size: $font-size-h1;
+}
+
+.contenedor-eventos{
+    @include flex(row, none, center, center, 2rem);
+    padding: 2rem;
+}
+
+.apartado-imgEvetos{
+    @include flex(column, nowrap, none, center, 1.25rem);
+    margin: 3.125rem .625rem;
+    flex: 1 1 400px;
+}
+
+
+.apartado-imgEvetos img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px $color1;
+}
+
+%img-evt{
+    height: 25rem;
+    object-fit: cover;
+    border-radius: .625rem;
+    box-shadow: 0 .25rem .5rem $color1;
+}
+
+.img1-evt img{
+    @extend %img-evt;
+    width: 37.5rem;
+}
+
+.img2-evt img{
+    @extend %img-evt;
+    width: 43.75rem;
+}
+
+.apartado-txtEventos{
+    @include flex(column, none, center, center, 3rem);
+    margin: 3.125rem;
+}
+
+.apartado-txtEventos h2{
+    color: $color1;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-seminegrita;
+}
+
+.apartado-txtEventos p{
+    font-size: $font-size-p;
+    line-height: 1.6;
+    padding: 0 2.5rem;
+    text-wrap: pretty;
+}
+
+.listado-contenidoEvt{
+    list-style: circle;
+    font-family: "Poppins", sans-serif;
+    font-size: $font-size-p;
+}
+
+.list-promo{
+    color: $color1;
+    font-size: $font-size-p;
+    margin-left: 1.25rem;
+    padding-left: 1.875rem;
+}
+
+.explicacion-pagos{
+    font-weight: $font-weight-seminegrita;
+    line-height: 1.6;
+}
+

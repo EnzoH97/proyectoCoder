@@ -1,0 +1,62 @@
+/* --------------- html contacto --------------- */
+/* --------------- Formulario de contacto ---------------*/
+
+.contenedor-form {
+    @include flex(none, none, none, none, none);
+    width: 100%;
+    max-width: 68.75rem;
+    margin: 0 auto;
+}
+
+.info-form {
+    @include grid(repeat(2, 1fr), none, none, none, none);
+    width: 100%;
+    max-width: 68.75rem;
+}
+
+.izq {
+    padding: 3.125rem;
+}
+
+.der {
+    padding: 3.125rem;
+    text-align: center;
+}
+
+.contenedor-form h2 {
+    margin-bottom: .9375rem;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-seminegrita;
+}
+
+.txt-tarjeta {
+    margin-bottom: 1.875rem;
+    font-size: $font-size-p;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.contenedor-form img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .3125rem .625rem .3125rem 0;
+}
+
+.txt-info {
+    display: flex;
+    align-items: center;
+    margin: .3125rem .625rem .3125rem 0;
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+/* --------------- Campos del formulario --------------- */
+.campo, textarea {
+    background-color: $color6;
+    border: 1px solid $color5;
+    width: 100%;
+    padding: .9375rem .625rem;
+    margin-bottom: 1.25rem;
+    font-size: $font-size-p;
+    border-radius: .1875rem;
+}

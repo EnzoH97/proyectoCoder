@@ -1,0 +1,62 @@
+/*----------- card tienda -----------*/
+
+.contenedor-cards{
+    @include flex(none, wrap, center, none, none);
+}
+
+.card{
+    @include flex(column, none, none, none, none);
+    background-color: $color7;
+    width: 15.625rem;
+    height: 21.875rem;
+    margin: 3.125rem;
+    padding: .8rem;
+    box-shadow: 0 .25rem .5rem $color1;
+    border-radius: .75rem;
+}
+
+.card-img {
+    @include flex(none, none, center, center, none);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-img img{
+    width: 90%;
+    height: 9.375rem;
+    object-fit: contain;
+    border-radius: .5rem;
+}
+
+.info-card{
+    @include flex(column, none, flex-start, none, none);
+    flex: 1; 
+}
+
+.info-card h2{
+    color: $color1;
+    font-size: $font-size-card;
+    font-weight: $font-weight-seminegrita;
+    padding: .625rem 0;
+    margin: .625rem 0;
+    line-height: 0;
+}
+
+.info-card p{
+    color: $color1;
+    padding: .625rem .3125rem;
+    font-size: $font-size-p;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.footer-card{
+    color: $color4;
+    border-top: .0625rem solid $color4;
+    @include flex(none, none, space-between, center, none);
+    width: 100%;
+    margin-top: auto;
+    padding-top: .625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+
+/* --------- botones ----------*/
+.enviar{
+    background-color: $color4;
+    color: $color7;
+    text-align: center;
+    text-decoration: none;
+    padding: .9375rem;
+    font-size: $font-size-p;
+    border-radius: .3125rem;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: $color3;
+}

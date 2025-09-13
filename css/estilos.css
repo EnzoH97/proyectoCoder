@@ -124,6 +124,7 @@ p {
   text-wrap: pretty;
 }
 
+/*--------------- html index ---------------*/
 .seccion-bienvenida {
   display: flex;
   justify-content: center;
@@ -226,6 +227,178 @@ main p {
   color: #F8B259;
 }
 
+/* --------------- html contacto --------------- */
+/* --------------- Formulario de contacto ---------------*/
+.contenedor-form {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: none;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  max-width: 68.75rem;
+  margin: 0 auto;
+}
+
+.info-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: none;
+  align-items: none;
+  justify-items: none;
+  gap: none;
+  width: 100%;
+  max-width: 68.75rem;
+}
+
+.izq {
+  padding: 3.125rem;
+}
+
+.der {
+  padding: 3.125rem;
+  text-align: center;
+}
+
+.contenedor-form h2 {
+  margin-bottom: 0.9375rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.txt-tarjeta {
+  margin-bottom: 1.875rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.contenedor-form img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.3125rem 0.625rem 0.3125rem 0;
+}
+
+.txt-info {
+  display: flex;
+  align-items: center;
+  margin: 0.3125rem 0.625rem 0.3125rem 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* --------------- Campos del formulario --------------- */
+.campo, textarea {
+  background-color: #FFD7A3;
+  border: 1px solid #F8B259;
+  width: 100%;
+  padding: 0.9375rem 0.625rem;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.1875rem;
+}
+
+/*--------------- html eventos ---------------*/
+.encavezado-eventos {
+  background-color: #F8B259;
+  height: auto;
+  padding: 1.25rem 0;
+}
+
+.encavezado-eventos h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.contenedor-eventos {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.apartado-imgEvetos {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: none;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 3.125rem 0.625rem;
+  flex: 1 1 400px;
+}
+
+.apartado-imgEvetos img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #5C4033;
+}
+
+.img2-evt img, .img1-evt img {
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.5rem #5C4033;
+}
+
+.img1-evt img {
+  width: 37.5rem;
+}
+
+.img2-evt img {
+  width: 43.75rem;
+}
+
+.apartado-txtEventos {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 3.125rem;
+}
+
+.apartado-txtEventos h2 {
+  color: #5C4033;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.apartado-txtEventos p {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 2.5rem;
+  text-wrap: pretty;
+}
+
+.listado-contenidoEvt {
+  list-style: circle;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.list-promo {
+  color: #5C4033;
+  font-size: 1rem;
+  margin-left: 1.25rem;
+  padding-left: 1.875rem;
+}
+
+.explicacion-pagos {
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/*--------------- html nosotos ---------------*/
 .encavezado-nosotros {
   background-color: #F8B259;
   height: auto;
@@ -328,6 +501,19 @@ main p {
   border-radius: 0.75rem;
 }
 
+/* --------------- html tienda --------------- */
+.encavezado-tienda {
+  background-color: #F8B259;
+  height: auto;
+  padding: 1.25rem 0;
+}
+
+.encavezado-tienda h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
 /*cuarto componentes*/
 .navbar {
   background-color: #5C4033 !important;
@@ -341,6 +527,110 @@ main p {
 .navbar img {
   width: auto;
   height: 10.9375rem;
+}
+
+/* --------- botones ----------*/
+.enviar {
+  background-color: #D96F32;
+  color: #FFE6BC;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.9375rem;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #C3542B;
+}
+
+/*----------- card tienda -----------*/
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: none;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+}
+
+.card {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  background-color: #FFE6BC;
+  width: 15.625rem;
+  height: 21.875rem;
+  margin: 3.125rem;
+  padding: 0.8rem;
+  box-shadow: 0 0.25rem 0.5rem #5C4033;
+  border-radius: 0.75rem;
+}
+
+.card-img {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-img img {
+  width: 90%;
+  height: 9.375rem;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.info-card {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: none;
+  gap: none;
+  flex: 1;
+}
+
+.info-card h2 {
+  color: #5C4033;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.625rem 0;
+  margin: 0.625rem 0;
+  line-height: 0;
+}
+
+.info-card p {
+  color: #5C4033;
+  padding: 0.625rem 0.3125rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-card {
+  color: #D96F32;
+  border-top: 0.0625rem solid #D96F32;
+  display: flex;
+  flex-wrap: none;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 0.625rem;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=estilos.css.map */
