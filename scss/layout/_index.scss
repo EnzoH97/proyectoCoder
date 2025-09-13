@@ -1,0 +1,107 @@
+
+.seccion-bienvenida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.txt-bienvenida{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-right: 1.25rem;
+    text-wrap: pretty;
+}
+
+.seccion-bienvenida img{
+    width: 100%;
+    max-width: 18.75rem;
+    height: auto;
+    object-fit: cover;
+    margin: 1.875rem;
+    border-radius: 1.25rem;
+}
+
+h1 {
+    color: $color1;
+    text-align: center;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-seminegrita;
+}
+
+main p {
+    color: $color2;
+    text-align: left;
+    font-size: $font-size-p;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.contenedor-general{
+    @include grid(none, repeat(3, 1fr), none, none, 1.875rem);
+}
+
+
+%contenedor-base {
+    display: flex;
+    align-items: center;
+    gap: 1.5625rem;
+
+    h2 {
+        padding: .625rem 1.5625rem;
+        font-size: $font-size-h2;
+        font-weight: $font-weight-seminegrita;
+    }
+
+    p {
+        padding: .625rem 1.5625rem;
+        font-size: $font-size-p;
+        line-height: 1.6;
+        text-wrap: pretty;
+    }
+
+    img {
+        width: 100%;
+        max-width: 18.75rem;
+        height: auto;
+        object-fit: cover;
+        border-radius: 1rem;
+        margin: .625rem;
+    }
+}
+
+/* --------------- Sección Tienda --------------- */
+
+.contenedor1 {
+    @extend %contenedor-base;
+    background-color:$color5;
+    padding-right: .625rem;
+    h2,p{
+        color: $color1;
+    }
+}
+
+/* --------------- Sección Eventos --------------- */
+
+.contenedor2 {
+    @extend %contenedor-base;
+    background-color: $color4;
+    flex-direction: row-reverse;
+    padding-left: .625rem;
+    h2,p{
+        color: $color8;
+    }
+}
+
+/* --------------- Sección Sobre nosotros --------------- */
+.contenedor3 {
+    @extend %contenedor-base;
+    background-color: $color2;
+    padding-right: .625rem;
+    margin-bottom: 1.875rem;
+    h2,p{
+        color:$color5
+    }
+}
+

@@ -1,0 +1,92 @@
+
+.encavezado-nosotros{
+    background-color: $color5;
+    height: auto;
+    padding: 1.25rem 0;
+}
+
+.encavezado-nosotros h1{
+    text-align: center;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-seminegrita;
+}
+
+.seccion-historia{
+    @include flex(row, nowrap, none, center, 3.125rem);
+    margin: 1.25rem 3rem;
+    padding: 1.25rem 4.5rem;
+}
+
+.seccion-historia img{
+    box-shadow: 0 .25rem .5rem $color1;
+    filter: grayscale(100%);
+    border-radius: .9375rem;
+    width: 100%;
+    max-width: 22rem;
+    height: auto;
+
+}
+.seccion-historia h2{
+    color: $color1;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-seminegrita;
+}
+
+.seccion-historia p{
+    font-size: $font-size-p;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.seccion-valores {
+    @include flex(row, none, space-around, stretch, 1.25rem);
+    padding: 1.25rem;
+}
+
+.valor-uno,
+.valor-dos,
+.valor-tres {
+    @include flex(column, none, space-evenly, none, 0);
+    flex: 1 1 0;
+    min-height: 20rem;
+    padding: 1.25rem;
+    border-radius: .75rem;
+    margin: 0;
+}
+
+.valor-uno p,
+.valor-dos p,
+.valor-tres p{
+    padding: 0 2.5rem;
+    text-wrap: pretty;
+}
+
+.seccion-valores h3{
+    color: $color6;
+    text-align: center;
+    font-weight: $font-weight-negrita;
+    font-size: $font-size-h3;
+    padding: .9375rem;
+}
+
+.seccion-valores p{
+    color: $color6;
+    font-size: $font-size-p;
+    line-height: 1.6;
+    text-wrap: pretty;
+}
+
+.valor-uno{
+    background-color: $color2;
+    border-radius: .75rem;
+}
+
+.valor-dos{
+    background-color: $color4;
+    border-radius: .75rem;
+}
+
+.valor-tres{
+    @extend .valor-uno;
+}
+

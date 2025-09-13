@@ -1,0 +1,19 @@
+
+// Mixin para flexbox
+@mixin flex($direction, $wrap, $justify, $align, $gap) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin grid($columns, $rows, $align, $justify, $gap){
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    align-items: $align;
+    justify-items: $justify;
+    gap: $gap;
+}

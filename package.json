@@ -1,0 +1,20 @@
+{
+  "name": "preentrega-enzoherrera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoH97/proyectoCoder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoH97/proyectoCoder/issues"
+  },
+  "homepage": "https://github.com/EnzoH97/proyectoCoder#readme"
+}

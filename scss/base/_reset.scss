@@ -1,0 +1,32 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: $font-p;
+    font-size: $font-size-p;
+}
+
+h1,
+h2,
+h3{
+    font-family: $font-h;
+    font-weight: $font-weight-seminegrita;
+}
+
+main{
+    background-color: $color8;
+}

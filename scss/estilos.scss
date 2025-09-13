@@ -1,0 +1,18 @@
+/*Primero se llama a los utilities*/
+
+@import './utilities/variables.scss';
+@import './utilities/mixins.scss';
+
+/*segundo a los base*/
+
+@import './base/reset.scss';
+@import './base/tipografia.scss';
+
+/*tersero layout media query al final*/
+
+@import './layout/footer.scss';
+@import './layout/index.scss';
+@import './layout/nosotros.scss';
+
+/*cuarto componentes*/
+@import './components/navbar.scss'

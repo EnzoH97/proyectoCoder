@@ -1,0 +1,46 @@
+
+.pie-pagina h3{
+    padding: .625rem;
+    font-size: $font-size-h3;
+    font-weight: $font-weight-seminegrita;
+}
+
+.caja-general{
+    @include flex(row, nowrap, space-around, none, 0);
+    padding: 1.25rem 0;
+    background-color: $color1;
+    color: $color8;
+    height: auto;
+}
+
+.caja-redes{
+    @include flex(column, none, none, none, .625rem);
+    margin-top: 2.1875rem;
+}
+
+.caja-contactos{
+    @include flex(column, none, none, none, .625rem);
+}
+
+.iconos-rd{
+    @include flex(row, none, space-around, none, 0);
+}
+
+.iconos-ct {
+    @include flex(column, nowrap, none, none, .625rem);
+}
+
+.item-contacto {
+    @include flex(row, nowrap, none, center, .625rem)
+}
+
+.item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.item-contacto p {
+    margin: 0;
+    font-size: 1rem;
+    text-wrap: pretty;
+}
