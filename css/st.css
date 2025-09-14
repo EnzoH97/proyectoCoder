@@ -485,8 +485,8 @@ main p {
     background-color: #C75D2C;
     border-radius: .75rem;
 }
-*/
-/* --------------- html tienda --------------- */
+
+--------------- html tienda --------------- 
 
 .encavezado-tienda{
     background-color: #F8B259;
@@ -567,7 +567,7 @@ main p {
     font-size: 1.25rem;
     font-weight: 600;
 }
-/*
+
 --------------- Pie de página ---------------
 .pie-pagina {
     background-color: #5c4033;
@@ -630,9 +630,9 @@ main p {
     font-size: 1rem;
     text-wrap: pretty;
 }
-*/
+
 @media (max-width: 768px){
-/* --------------- html index tablet --------------- */
+--------------- html index tablet ---------------
 .seccion-bienvenida img{
     width: 12.5rem;
 }
@@ -641,13 +641,13 @@ h1 {
     font-size: 2rem;
 }
 
-/* --------------- redirecciones del index tablet--------------- */
+--------------- redirecciones del index tablet---------------
 
 .contenedor-general{
     gap: .625rem;
 }
 
-/* --------------- Secciones del index --------------- */
+--------------- Secciones del index ---------------
 .contenedor1 h2,
 .contenedor2 h2,
 .contenedor3 h2 {
@@ -661,8 +661,8 @@ h1 {
     width: 15.625rem;
 }
 
-/* --------------- html contacto tablet --------------- */
-/* --------------- Formulario de contacto ---------------*/
+--------------- html contacto tablet ---------------
+--------------- Formulario de contacto ---------------
 
 .izq {
     padding: 2.5rem;
@@ -690,14 +690,13 @@ h1 {
     height: 1.5rem
 }
 
-/* --------------- Botón enviar --------------- */
+--------------- Botón enviar ---------------
 
 .enviar{
     padding: .8125rem;
 }
 
-
-/* --------------- html eventos tablet--------------- */
+--------------- html eventos tablet---------------
 
 .encavezado-eventos h1{
     font-size: 2rem;
@@ -753,7 +752,7 @@ h1 {
     padding-left: 1.75rem;
 }
 
-/* --------------- html Sobre Nosotros teblet --------------- */
+--------------- html Sobre Nosotros teblet ---------------
 
 .encavezado-nosotros h1{
     font-size: 2rem;
@@ -789,7 +788,7 @@ h1 {
     padding: .8125rem;
 }
 
-/* --------------- html tienda tablet --------------- */
+--------------- html tienda tablet ---------------
 
 .encavezado-tienda h1{
     font-size: 2rem;
@@ -814,7 +813,7 @@ h1 {
     font-size: 1.25rem;
 }
 
-/* --------------- Pie de página tablet --------------- */
+--------------- Pie de página tablet ---------------
 
 .pie-pagina h3 {
     padding: .3125rem;
@@ -852,7 +851,7 @@ h1 {
 }
 }
 
-
+*/
 
 @media (max-width: 425px){
 /* --------------- html index celular --------------- */

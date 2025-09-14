@@ -1,0 +1,220 @@
+@media (max-width: 768px){
+/* --------------- html index tablet --------------- */
+.seccion-bienvenida img{
+    width: 12.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+/* --------------- redirecciones del index tablet--------------- */
+
+.contenedor-general{
+    gap: .625rem;
+}
+
+/* --------------- Secciones del index --------------- */
+.contenedor1 h2,
+.contenedor2 h2,
+.contenedor3 h2 {
+    padding: .625rem 1.25rem;
+    font-size: $font-size-mdh2;
+}
+
+.contenedor1 img,
+.contenedor2 img,
+.contenedor3 img {
+    width: 15.625rem;
+}
+
+/* --------------- html contacto tablet --------------- */
+/* --------------- Formulario de contacto ---------------*/
+
+.izq {
+    padding: 2.5rem;
+}
+
+.der {
+    padding: 2.5rem 2.1875rem;
+}
+.contenedor-form h2 {
+    font-size: $font-size-mdh2
+}
+
+.txt-tarjeta {
+    margin-bottom: 1.5625rem;
+}
+
+.contenedor-form img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: .3125rem .625rem .3125rem 0;
+}
+
+.txt-info {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+/* --------------- Botón enviar --------------- */
+
+.enviar{
+    padding: .8125rem;
+}
+
+/* --------------- html eventos tablet--------------- */
+
+.encavezado-eventos h1{
+    font-size: $font-size-mdh1;
+}
+
+.contenedor-eventos{
+    @include flex(column, none, center, center, 0);
+    padding: 2rem;
+}
+
+.apartado-imgEvetos{
+    @include flex(row, none, none, none, 1.25rem);
+    margin: 2.75rem .625rem;
+    flex: 1 1 300px;
+}
+
+.apartado-imgEvetos img {
+    width: 100%;
+    max-width: 25rem;
+}
+
+.img1-evt img{
+    width: 21.875rem;
+    height: 15.625rem;
+}
+
+.img2-evt img{
+    height: 18.75rem;
+}
+
+.apartado-txtEventos{
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.apartado-txtEventos h2{
+    font-size: $font-size-mdh2;
+}
+
+.apartado-txtEventos p{
+    padding: 0 1.5rem;
+}
+
+.list-promo{
+    margin-left: 1rem;
+    padding-left: 1.75rem;
+}
+
+/* --------------- html Sobre Nosotros teblet --------------- */
+
+.encavezado-nosotros h1{
+    font-size: $font-size-mdh1;
+}
+
+.seccion-historia{
+    margin: 1.5rem 2rem;
+    padding: 1.5rem 1.875rem;
+    gap: 2.5rem;
+}
+
+.seccion-historia img{
+    width: 16rem;
+}
+.seccion-historia h2{
+    font-size: $font-size-h2;
+    margin: .625rem 0;
+}
+
+.seccion-valores {
+    padding: 1rem;
+}
+
+.valor-uno,
+.valor-dos,
+.valor-tres {
+    padding: 1rem;
+}
+
+.seccion-valores h3{
+    font-size: $font-size-mdh3;
+    padding: .8125rem;
+}
+
+/* --------------- html tienda tablet --------------- */
+
+.encavezado-tienda h1{
+    font-size: $font-size-mdh1;
+}
+
+.card{
+    width: 15rem;
+    height: 20.625rem;
+    margin: 2rem;
+}
+
+.card-img img{
+    width: 100%;
+    height: 7.8125rem;
+}
+
+.info-card{
+    margin: .625rem 0;
+    height: 100px;
+}
+
+.info-card h2{
+    font-size: $font-size-mdcard;
+}
+
+.footer-card{
+    p{
+        margin-bottom: 0;
+    }
+    padding-top: 0;
+}
+
+/* --------------- Pie de página tablet --------------- */
+
+.pie-pagina h3 {
+    padding: .3125rem;
+    font-size: $font-size-mdh3;
+}
+
+.caja-general {
+    padding: .9375rem 0;
+}
+
+.caja-redes {
+    margin-top: 1.875rem;
+}
+
+.caja-contactos {
+    gap: .625rem;
+}
+
+.item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.iconos-ct {
+    gap: .625rem;
+}
+
+.item-contacto {
+    gap: .625rem;
+}
+
+.item-contacto img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+}

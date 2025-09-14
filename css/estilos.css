@@ -514,6 +514,478 @@ main p {
   font-size: 2.25rem;
 }
 
+@media (max-width: 768px) {
+  /* --------------- html index tablet --------------- */
+  .seccion-bienvenida img {
+    width: 12.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  /* --------------- redirecciones del index tablet--------------- */
+  .contenedor-general {
+    gap: 0.625rem;
+  }
+  /* --------------- Secciones del index --------------- */
+  .contenedor1 h2,
+  .contenedor2 h2,
+  .contenedor3 h2 {
+    padding: 0.625rem 1.25rem;
+    font-size: 1.5rem;
+  }
+  .contenedor1 img,
+  .contenedor2 img,
+  .contenedor3 img {
+    width: 15.625rem;
+  }
+  /* --------------- html contacto tablet --------------- */
+  /* --------------- Formulario de contacto ---------------*/
+  .izq {
+    padding: 2.5rem;
+  }
+  .der {
+    padding: 2.5rem 2.1875rem;
+  }
+  .contenedor-form h2 {
+    font-size: 1.5rem;
+  }
+  .txt-tarjeta {
+    margin-bottom: 1.5625rem;
+  }
+  .contenedor-form img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0.3125rem 0.625rem 0.3125rem 0;
+  }
+  .txt-info {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  /* --------------- Botón enviar --------------- */
+  .enviar {
+    padding: 0.8125rem;
+  }
+  /* --------------- html eventos tablet--------------- */
+  .encavezado-eventos h1 {
+    font-size: 2rem;
+  }
+  .contenedor-eventos {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 2rem;
+  }
+  .apartado-imgEvetos {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content: none;
+    align-items: none;
+    gap: 1.25rem;
+    margin: 2.75rem 0.625rem;
+    flex: 1 1 300px;
+  }
+  .apartado-imgEvetos img {
+    width: 100%;
+    max-width: 25rem;
+  }
+  .img1-evt img {
+    width: 21.875rem;
+    height: 15.625rem;
+  }
+  .img2-evt img {
+    height: 18.75rem;
+  }
+  .apartado-txtEventos {
+    margin: 2rem;
+    gap: 2rem;
+  }
+  .apartado-txtEventos h2 {
+    font-size: 1.5rem;
+  }
+  .apartado-txtEventos p {
+    padding: 0 1.5rem;
+  }
+  .list-promo {
+    margin-left: 1rem;
+    padding-left: 1.75rem;
+  }
+  /* --------------- html Sobre Nosotros teblet --------------- */
+  .encavezado-nosotros h1 {
+    font-size: 2rem;
+  }
+  .seccion-historia {
+    margin: 1.5rem 2rem;
+    padding: 1.5rem 1.875rem;
+    gap: 2.5rem;
+  }
+  .seccion-historia img {
+    width: 16rem;
+  }
+  .seccion-historia h2 {
+    font-size: 1.75rem;
+    margin: 0.625rem 0;
+  }
+  .seccion-valores {
+    padding: 1rem;
+  }
+  .valor-uno,
+  .valor-tres,
+  .valor-dos {
+    padding: 1rem;
+  }
+  .seccion-valores h3 {
+    font-size: 1.25rem;
+    padding: 0.8125rem;
+  }
+  /* --------------- html tienda tablet --------------- */
+  .encavezado-tienda h1 {
+    font-size: 2rem;
+  }
+  .card {
+    width: 15rem;
+    height: 20.625rem;
+    margin: 2rem;
+  }
+  .card-img img {
+    width: 100%;
+    height: 7.8125rem;
+  }
+  .info-card {
+    margin: 0.625rem 0;
+    height: 100px;
+  }
+  .info-card h2 {
+    font-size: 1.25rem;
+  }
+  .footer-card p {
+    margin-bottom: 0;
+  }
+  .footer-card {
+    padding-top: 0;
+  }
+  /* --------------- Pie de página tablet --------------- */
+  .pie-pagina h3 {
+    padding: 0.3125rem;
+    font-size: 1.25rem;
+  }
+  .caja-general {
+    padding: 0.9375rem 0;
+  }
+  .caja-redes {
+    margin-top: 1.875rem;
+  }
+  .caja-contactos {
+    gap: 0.625rem;
+  }
+  .item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .iconos-ct {
+    gap: 0.625rem;
+  }
+  .item-contacto {
+    gap: 0.625rem;
+  }
+  .item-contacto img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+@media (max-width: 425px) {
+  /* --------------- html index celular --------------- */
+  .seccion-bienvenida {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+  }
+  .txt-bienvenida {
+    width: 90%;
+    margin: 1rem;
+  }
+  .seccion-bienvenida img {
+    width: 10rem;
+    margin: 1.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin: 0.9375rem 0;
+  }
+  main p {
+    font-size: 0.9rem;
+    margin: 0.9375rem 0;
+  }
+  /* --------------- redirecciones del index --------------- */
+  .contenedor-general {
+    gap: 0;
+  }
+  /*--------------- secciones tienda celulares ---------------*/
+  .contenedor3, .contenedor2, .contenedor1 {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .contenedor3 h2, .contenedor2 h2, .contenedor1 h2 {
+    padding: 0.625rem;
+    margin: 0.625rem 0 0 0.625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .contenedor3 p, .contenedor2 p, .contenedor1 p {
+    margin: 0.625rem 0 0 0.625rem;
+    padding: 0.625rem;
+    font-size: 0.9rem;
+  }
+  .contenedor3 img, .contenedor2 img, .contenedor1 img {
+    width: 10rem;
+    object-fit: cover;
+    margin-right: 0.625rem;
+    border-radius: 1rem;
+  }
+  .contenedor1 {
+    padding-right: 0;
+  }
+  /*--------------- secciones Eventos celulares ---------------*/
+  .contenedor2 {
+    padding: 0;
+  }
+  .contenedor2 h2, .contenedor2 p {
+    margin: 0.625rem 0.625rem 0 0;
+  }
+  /*--------------- secciones Nosotros celulares ---------------*/
+  .contenedor3 {
+    padding-right: 0;
+  }
+  /* --------------- html contacto celular --------------- */
+  /* --------------- Formulario de contacto ---------------*/
+  .info-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: none;
+    justify-items: none;
+    gap: none;
+  }
+  .izq {
+    padding: 0 1.875rem;
+    align-content: center;
+    margin-bottom: 0;
+  }
+  .der {
+    padding: 0 2.1875rem 2.5rem 2.1875rem;
+  }
+  .contenedor-form h2 {
+    font-size: 1.25rem;
+  }
+  .txt-tarjeta {
+    font-size: 0.9rem;
+    margin: 15px 0;
+  }
+  .contenedor-form img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.3125rem 0.625rem 0.3125rem 0;
+  }
+  .txt-info {
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  /* --------------- Campos del formulario --------------- */
+  .campo, textarea {
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+    border: 1px solid #C75D2C;
+    border-radius: 0.1875rem;
+  }
+  /* --------------- Botón enviar --------------- */
+  .enviar {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  /* --------------- html eventos celur --------------- */
+  .encavezado-eventos h1 {
+    font-size: 1.5rem;
+  }
+  .contenedor-eventos {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 1.25rem;
+  }
+  .apartado-imgEvetos {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    gap: 1.25rem;
+    margin: 0;
+    flex: 1 1 250px;
+  }
+  .apartado-imgEvetos img {
+    width: 100%;
+    max-width: 21.875rem;
+  }
+  .img1-evt img {
+    width: 18.75rem;
+    height: 14.0625rem;
+  }
+  .img2-evt img {
+    height: 15.625rem;
+  }
+  .apartado-txtEventos {
+    margin: 1.25rem 0.625rem;
+    gap: 0;
+  }
+  .apartado-txtEventos h2 {
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
+  }
+  .apartado-txtEventos p {
+    font-size: 0.9rem;
+    padding: 0 1.5rem;
+    margin: 0.625rem 0;
+  }
+  .list-promo {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    padding-left: 1.75rem;
+    gap: 0.3125rem;
+  }
+  .list-promo li {
+    margin-bottom: 0.3125rem;
+  }
+  /* --------------- html Sobre Nosotros celular --------------- */
+  .encavezado-nosotros h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .seccion-historia {
+    flex-direction: column;
+    margin: 0.625rem;
+    padding: 1.25rem 1.875rem;
+    gap: 0;
+  }
+  .seccion-historia img {
+    border-radius: 0.9375rem;
+    width: 12.5rem;
+  }
+  .seccion-historia h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .seccion-historia p {
+    font-size: 0.9rem;
+  }
+  .seccion-valores {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .valor-uno,
+  .valor-tres,
+  .valor-dos {
+    justify-content: center;
+    min-height: 13.75rem;
+    padding: 0;
+    margin: 0;
+  }
+  .valor-uno p,
+  .valor-dos p,
+  .valor-tres p {
+    font-size: 0.9rem;
+    margin: 0.625rem 0;
+  }
+  .seccion-valores h3 {
+    font-size: 1.125rem;
+    padding: 0.625rem;
+  }
+  .seccion-valores p {
+    font-size: 0.9rem;
+  }
+  /* --------------- html tienda celular --------------- */
+  .encavezado-tienda h1 {
+    font-size: 1.5rem;
+  }
+  .card {
+    width: 14.375rem;
+    height: 19.6875rem;
+    margin: 2rem;
+  }
+  .card-img img {
+    width: 100%;
+    height: 6.875rem;
+  }
+  .info-card h2 {
+    font-size: 1.125rem;
+    padding: 0.5rem 0;
+  }
+  .info-card p {
+    font-size: 0.9rem;
+    margin-top: 0;
+    height: 80px;
+  }
+  .footer-card p {
+    margin: 0.625rem 0;
+  }
+  .footer-card {
+    padding-top: 0 !important;
+    font-size: 1.125rem;
+  }
+  /* --------------- Pie de página celular --------------- */
+  .caja-general {
+    gap: 0.9375rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pie-pagina h3 {
+    margin: 0;
+    padding: 0.25rem;
+    font-size: 1.125rem;
+  }
+  .caja-general {
+    padding: 1rem 0;
+  }
+  .caja-contactos {
+    gap: 0.3125rem;
+    align-items: center;
+  }
+  .caja-redes {
+    gap: 0.3125rem;
+    margin-top: 0.9375rem;
+  }
+  .iconos-rd {
+    justify-content: space-evenly;
+  }
+  .item-contacto img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .item-contacto p {
+    font-size: 0.9rem;
+  }
+}
 /*cuarto componentes*/
 .navbar {
   background-color: #5C4033 !important;
