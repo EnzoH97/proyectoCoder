@@ -992,6 +992,10 @@ main p {
   width: 100%;
 }
 
+.navbar-toggler {
+  background-color: #916C5A;
+}
+
 .navbar a {
   color: #F3E9DC;
 }
