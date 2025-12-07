@@ -1,4 +1,4 @@
-let menu = [
+/* let menu = [
     {nombre: "Promo1", precio: 1100},
     {nombre: "Promo2", precio: 1700},
     {nombre: "Cafe", precio: 800},
@@ -96,4 +96,38 @@ console.log("Gracias " + cliente + " por tu compra. ¡Vuelva pronto!");
 
 }else {
     alert("Gracias por visitar nuestra tienda.");
+} */
+
+let productos = [
+    {nombre: "Promo1", precio: 1100, imagen:"../assets/img/promo1.jpg", alt:"Imagen ilustrativa de la promo 1", descripcion:"Café o café con leche + tortita o factura"},
+    {nombre: "Promo2", precio: 1700, imagen:"../assets/img/promo2.jpg", alt:"Imagen ilustrativa de la promo 2", descripcion:"Café/café con leche + tortita/factura + jugo natural"},
+    {nombre: "Cafe", precio: 800, imagen:"../assets/img/cafe.jpg", alt:"Imagen ilustrativa del cafe", descripcion:"vaso de cafe mediano"},
+    {nombre: "Cafe con leche", precio: 1000, imagen:"../assets/img/cafe-leche.jpg", alt:"Imagen ilustrativa del cafe con leche", descripcion:"vaso de cafe con leche mediano"},
+    {nombre: "Jugo de naranja", precio: 700, imagen:"../assets/img/jugo.jpg", alt:"Imagen ilustrativa del jugo de naranja", descripcion:"vaso de jugo de naranja natural"},
+    {nombre: "Tortitas", precio: 350, imagen:"../assets/img/tortitas.jpg", alt:"Imagen ilustrativa de las tortitas", descripcion:"tortitas caseras a elección"},
+    {nombre: "Facturas", precio: 450, imagen:"../assets/img/facturas.jpg", alt:"Imagen ilustrativa de las facturas", descripcion:"facturas caseras a elección"},
+    {nombre: "Churros", precio: 1000, imagen:"../assets/img/churros.jpg", alt:"Imagen ilustrativa de los churros", descripcion:"Churros rellenos de dulce de leche o chocolate"},
+    {nombre: "Donas", precio: 1000, imagen:"../assets/img/donas.jpg", alt:"Imagen ilustrativa de las donas", descripcion:"Donas glaseadas o rellenas a elección"},
+    {nombre: "Magdalena", precio: 600, imagen:"../assets/img/Magdalenas.jpg", alt:"Imagen ilustrativa de la magdalena", descripcion:"Magdalenas rellena o glaseada a elección"},
+    {nombre: "Waffles", precio: 1200, imagen:"../assets/img/waffles.jpg", alt:"Imagen ilustrativa de los waffles", descripcion:"Waffles dulces a elección"},
+    {nombre: "Sandwich de miga", precio: 500, imagen:"../assets/img/sandwich.jpg", alt:"Imagen ilustrativa del sandwich de miga", descripcion:"Sandwich de miga a elección"}
+]
+
+for(const producto of productos){
+    let card = document.createElement("div");
+    card.classList.add("card");
+    card.innerHTML = `
+            <div class="card-img">
+                <img src="${producto.imagen}" alt="${producto.alt}">
+            </div>
+            <div class="info-card">
+                <h2>${producto.nombre}</h2>
+                <p>${producto.descripcion}</p>
+            </div>
+            <div class="footer-card">
+                <!--precio del producto-->
+                <p>$${producto.precio}</p>
+            </div>
+    `;
+    document.getElementById("contenedor-cards").appendChild(card);
 }
