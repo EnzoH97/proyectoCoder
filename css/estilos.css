@@ -1133,4 +1133,37 @@ main p {
   font-weight: 600;
 }
 
+.footer-card p {
+  padding-top: 0.625rem;
+}
+
+svg {
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+
+.card-button {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  margin-top: 0.3125rem;
+}
+
+.card-button svg {
+  border: 2px solid #5C4033;
+  display: flex;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s all ease-in-out;
+}
+
+.card-button svg:hover {
+  border: 2px solid #F8B259;
+  background-color: #F8B259;
+}
+
 /*# sourceMappingURL=estilos.css.map */
