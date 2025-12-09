@@ -137,10 +137,10 @@ for(const producto of productos){
     `;
     document.getElementById("contenedor-cards").appendChild(card);
 
+/* 
+Interactividad futura para agregar al carrito
     const boton = card.querySelector(".card-button");
     boton.addEventListener("click", ()=> {
         agregarAlCarrito(producto);
-    })
+    }) */
 }
-
-console.log(productos);

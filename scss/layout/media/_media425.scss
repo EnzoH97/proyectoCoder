@@ -1,4 +1,10 @@
 @media (max-width: 425px){
+
+.carritoNavBar {
+    left: 0px;
+}
+
+
 /* --------------- html index celular --------------- */
 .seccion-bienvenida{
     @include flex(column, none, none, none, 1rem);

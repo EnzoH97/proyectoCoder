@@ -17,6 +17,10 @@
     height: 10.9375rem;
 }
 
+.container-fluid{
+    justify-content: space-evenly !important;
+}
+
 .navbar-brand img:hover {
     animation: scala-logo 0.45s ease-in-out both;
 }
@@ -29,3 +33,13 @@
         transform: scale(1.25);
     }
 }
+
+
+.carritoNavBar{
+    border: .0625rem solid $color10;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: $color9;
+    margin-right: .125rem;
+}
+
