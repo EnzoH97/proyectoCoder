@@ -43,7 +43,27 @@
             </div>
         </nav>
     </header>
-    <main style="min-height: 100vh;"></main>
+    <!-- 
+            actualizacion futura: agregar columna de la cantidad del produto que lleva para evitar duplicacion
+    -->
+    <main style="min-height: 100vh;">
+        <div class="encabezado-carrito">
+            <h1>Tu Carrito</h1>
+        </div>
+        <section class="caja-carrito">
+            <h2>Tu compra</h2>
+            <ul class="lista-compra" id="lista">
+                <!-- Los items del carrito se renderizan aquí mediante JavaScript -->
+            </ul>
+            <div class="total-pagar">
+                <span>Total:</span>
+                <strong>$</strong>
+            </div>
+            <button class="btn-finalizar">
+                Finalizar compra
+            </button>
+        </section>
+    </main>
     <footer class="pie-pagina">
         <div class="caja-general">
             <!--parte footer para promocionar las redes sociales-->
@@ -82,6 +102,8 @@
         </div>
     </footer>
 </body>
+<script src="../js/cardsTienda.js"></script>
+<script src="../js/carrito.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </html>

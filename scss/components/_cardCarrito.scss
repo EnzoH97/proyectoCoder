@@ -1,0 +1,78 @@
+
+.encabezado-carrito{
+    background-color: $color5;
+    height: auto;
+    padding: 1.25rem 0;
+}
+
+.encabezado-carrito h1{
+    text-align: center;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-seminegrita;
+}
+
+.caja-carrito{
+    @include flex(column, nowrap, space-evenly, center,0);
+    padding: 1.5rem;
+    max-width: 37.5rem;
+    margin: 0 auto;
+}
+
+.lista-compra {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.item-nombre {
+    font-weight: $font-weight-seminegrita;
+}
+
+.item-precio {
+    font-weight: $font-weight-seminegrita
+}
+
+
+.item-compra{
+    @include flex(row, nowrap, flex-start, center, 10px);
+    padding: 0.75rem;
+}
+
+.item-info{
+    @include flex(row, nowrap, space-between, center, 20px);
+    width: 100%;
+}
+
+.item-compra img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.total-pagar {
+    width: 100%;
+    @include flex(row, nowrap, space-between, center, 0);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-top: 1px solid $color10;
+    span{
+        font-size: $font-size-total
+    }
+    strong{
+        font-size: $font-size-total
+    }
+}
+
+.btn-finalizar {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: $color5;
+    color: $color8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-finalizar:hover {
+    background-color: $color4;
+}
