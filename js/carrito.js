@@ -15,15 +15,27 @@ function agregarAlCarrito(producto) {
     localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
+function calcularTotal(carrito) {
+    let total = 0;
+    
+    for (let producto of carrito) {
+        total += producto.precio * producto.cantidad;
+    }
+    return total;
+}
+
 function finalizarCompra() {
     localStorage.removeItem("carrito");
     renderizarCarrito();
-    alert("Gracias por su compra!");
 }
 
 function renderizarCarrito() {
+    if (!lista) return;
+
     lista.innerHTML = "";
+
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    const totalElemento = document.getElementById("total");
 
     for (let producto of carrito) {
         let item = document.createElement("li");
@@ -41,10 +53,10 @@ function renderizarCarrito() {
         lista.appendChild(item);
     }
 
+const total = calcularTotal(carrito);
+totalElemento.textContent = `$${total}`;
+
 const botonFinalizar = document.querySelector(".btn-finalizar");
 botonFinalizar.addEventListener("click", finalizarCompra);
-
-//actualizacion futura calcular total a pagar y darle funcionalidad al boton finalizar compra. 
 }
-
 renderizarCarrito();
