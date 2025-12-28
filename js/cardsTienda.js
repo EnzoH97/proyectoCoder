@@ -5,9 +5,9 @@ fetch("../data/datos-tienda.json")
 .then(response => response.json())
 .then(data => {
     productos = [
-        ...data.Promociones,
-        ...data.Bebidas,
-        ...data.Panaderia
+        ...data.Promociones.map(p => ({...p, categoria: "Promociones"})),
+        ...data.Bebidas.map(p => ({...p, categoria: "Bebidas"})),
+        ...data.Panaderia.map(p => ({...p, categoria: "Panaderia"}))
     ];
     renderizarProductos(productos);
 })
@@ -45,3 +45,27 @@ function renderizarProductos(lista){
         });
 }
 }
+
+function filtrarProductos(){
+    let desde = parseInt(document.getElementById("desde").value);
+    if (isNaN(desde)){
+        desde = 0;
+    }
+
+    let hasta = parseInt(document.getElementById("hasta").value);
+    if (isNaN(hasta)){
+        hasta = Infinity;
+    }
+
+    let categorias = document.getElementById("categorias").value;
+
+    let productosFiltrados = productos.filter(producto => producto.precio >= desde && producto.precio <= hasta);
+    if (categorias !== "Todas"){
+        productosFiltrados = productosFiltrados.filter(producto => producto.categoria === categorias);
+    }
+    renderizarProductos(productosFiltrados);
+
+}
+
+const botonFiltro = document.querySelector(".boton-filtro");
+botonFiltro.addEventListener("click", filtrarProductos);
