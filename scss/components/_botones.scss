@@ -14,3 +14,29 @@
 .enviar:hover {
     background-color: $color3;
 }
+
+.btn-finalizar {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: $color5;
+    color: $color8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-finalizar:hover {
+    background-color: $color4;
+}
+
+.boton-filtro{
+    padding: 0.75rem 1.5rem;
+    background-color: $color5;
+    color: $color10;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-filtro:hover {
+    background-color: $color4;
+}

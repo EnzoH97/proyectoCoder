@@ -38,6 +38,11 @@ main p {
 
 /*--------------- secciones tienda celulares ---------------*/
 
+.filtro-busqueda{
+    @include flex(column, wrap, center, center, 1rem);
+    align-content: center;
+}
+
 %contenedor-general{
     @include flex(column, none, none, center, .5rem);
     h2{

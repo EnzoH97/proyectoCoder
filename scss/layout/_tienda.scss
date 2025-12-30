@@ -11,3 +11,31 @@
     font-weight: $font-weight-seminegrita;
     font-size: $font-size-h1;
 }
+
+/* --------------- filtros --------------- */
+
+.filtro-busqueda{
+    @include flex(row, wrap, center, baseline, 1rem);
+    margin: 1rem 0;
+}
+
+.campo-filtro, textarea {
+    background-color: $color5;
+    border: 1px solid $color4;
+    padding: .625rem .3125rem;
+    font-size: $font-size-p;
+    border-radius: .1875rem;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px $color5 inset;
+}
+
+select{ 
+    padding: .625rem .3125rem;
+    border-radius: .1875rem;
+    background-color: $color5;
+    border: 1px solid $color4;
+    color: $color10;
+    cursor: pointer;
+}

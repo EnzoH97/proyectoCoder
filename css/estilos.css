@@ -514,6 +514,38 @@ main p {
   font-size: 2.25rem;
 }
 
+/* --------------- filtros --------------- */
+.filtro-busqueda {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.campo-filtro, textarea {
+  background-color: #F8B259;
+  border: 1px solid #D96F32;
+  padding: 0.625rem 0.3125rem;
+  font-size: 1rem;
+  border-radius: 0.1875rem;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #F8B259 inset;
+}
+
+select {
+  padding: 0.625rem 0.3125rem;
+  border-radius: 0.1875rem;
+  background-color: #F8B259;
+  border: 1px solid #D96F32;
+  color: #000000;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   /* --------------- Navbar tablet --------------- */
   .carritoNavBar {
@@ -735,6 +767,15 @@ main p {
     gap: 0;
   }
   /*--------------- secciones tienda celulares ---------------*/
+  .filtro-busqueda {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-content: center;
+  }
   .contenedor3, .contenedor2, .contenedor1 {
     display: flex;
     flex-wrap: none;
@@ -1053,6 +1094,33 @@ main p {
   background-color: #C3542B;
 }
 
+.btn-finalizar {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #F8B259;
+  color: #F3E9DC;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-finalizar:hover {
+  background-color: #D96F32;
+}
+
+.boton-filtro {
+  padding: 0.75rem 1.5rem;
+  background-color: #F8B259;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-filtro:hover {
+  background-color: #D96F32;
+}
+
 /*----------- card tienda -----------*/
 .contenedor-cards {
   display: flex;
@@ -1268,20 +1336,6 @@ svg {
 }
 .total-pagar strong {
   font-size: 1.3rem;
-}
-
-.btn-finalizar {
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #F8B259;
-  color: #F3E9DC;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-finalizar:hover {
-  background-color: #D96F32;
 }
 
 /*# sourceMappingURL=estilos.css.map */
